@@ -31,7 +31,6 @@ $letra-grande: 18px; $letra-peq: 12px;
   
 }
 
-
 .page-footer {
     background-color: $negro;
     color: $gris;
@@ -65,12 +64,12 @@ $letra-grande: 18px; $letra-peq: 12px;
     }
   }
 
-  img {
-    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  /* img {
+  #  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  #  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
     margin-bottom: 16px;
-  }
+  } */
 } 
 
 .feature-title {
@@ -80,7 +79,6 @@ $letra-grande: 18px; $letra-peq: 12px;
     margin-bottom: 20px;
     text-transform: uppercase;
   }
-  
 
 .header {
     background-image: url('images/piqsels.com-fondo.jpg');
@@ -116,7 +114,7 @@ $letra-grande: 18px; $letra-peq: 12px;
   body {
     padding: 0;
     margin: 0;
-    background: #f2f6e9;
+    background: #fff;
     }
     
   button {
