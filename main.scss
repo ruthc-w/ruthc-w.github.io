@@ -1,0 +1,161 @@
+/* == PALETA == */
+$verde:#589b37; 
+$negro: #222;
+$gris: #ccc;
+$gris_o: #666;
+$gris_o2: #333;
+/* == TAMAÑO DE LETRA == */ 
+$letra-grande: 18px; $letra-peq: 12px;
+/* == PADDING == */ $padding: 0.677rem;
+/* == MARGIN == */ $margin: 0.887rem; 
+
+ 
+@media (max-width: 575.98px) {
+
+  .description {
+      left: 0;
+      padding: 0 15px;
+      position: absolute;
+      top: 10%;
+      transform: none;
+      text-align: center;
+      
+      h1 { font-size: 2em; }
+    
+      p { font-size: 1.2rem; }
+  }
+    
+  .features {
+      margin: 0;
+  }
+  
+}
+
+
+.page-footer {
+    background-color: $negro;
+    color: $gris;
+    padding: 60px 0 30px;
+  }
+  
+  .footer-copyright {
+    color: $gris_o;
+    padding: 40px 0;
+  }
+
+.features .form-control,
+.features input {
+    border-radius: 0;
+}
+
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+  
+  .btn {
+      background-color: $verde;
+      border: 1px solid $verde;
+      color: #fff;
+      margin-top: 20px;
+
+    &:hover {
+      background-color: $gris_o2;
+      border: 1px solid $gris_o2;
+    }
+  }
+
+  img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+  }
+} 
+
+.feature-title {
+    color: $gris_o2;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+
+.header {
+    background-image: url('images/piqsels.com-fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+
+    h1 { color: $negro;}
+    
+    p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    }
+    
+  body {
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+    }
+    
+  button {
+      border:1px solid $verde;
+      background: $verde;
+      border-radius: 0;
+      color:#fff;
+
+    &:hover {
+      border:1px solid #fff;
+      background:#fff;
+      color:#000;
+    }
+    
+  }
+}
+  
+
+  
+  
+  /*--- navigation bar ---*/
+  
+  .navbar {
+    background: $negro;
+  }
+  
+  .nav-link,
+  .navbar-brand {
+    color: $gris;
+    cursor: pointer;
+  }
+  
+  .nav-link {
+    margin-right: 1em !important;
+    &:hover {
+      color: $gris_o;
+    }
+  }
+  
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
