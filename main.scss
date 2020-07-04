@@ -64,6 +64,10 @@ $letra-grande: 18px; $letra-peq: 12px;
     }
   }
 
+  p {
+    padding-top: 10px;
+  }
+
   /* img {
   #  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
   #  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
@@ -131,7 +135,52 @@ $letra-grande: 18px; $letra-peq: 12px;
     
   }
 }
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
   
+.post {
+  position: absolute;
+  text-align: center;
+
+  h3 { color: $negro;
+      font-family: "Helvetica, sans-serif";
+    }
+  
+  h5 { color: $gris_o;
+       font-family: "Amatic SC";
+       text-align: right;
+     }  
+
+  p {
+  color: $negro;
+  line-height: 1.5;
+  }
+  
+  body {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+  }
+  
+  button {
+    border:1px solid $verde;
+    background: $verde;
+    border-radius: 0;
+    color:#fff;
+
+  &:hover {
+    border:1px solid #fff;
+    background:#fff;
+    color:#000;
+  }
+  
+ }
+}
 
   
   

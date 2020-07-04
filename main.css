@@ -60,6 +60,9 @@
   background-color: #333;
   border: 1px solid #333;
 }
+.features p {
+  padding-top: 10px;
+}
 
 .feature-title {
   color: #333;
@@ -112,6 +115,46 @@
   color: #fff;
 }
 .description button:hover {
+  border: 1px solid #fff;
+  background: #fff;
+  color: #000;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.post {
+  position: absolute;
+  text-align: center;
+}
+.post h3 {
+  color: #222;
+  font-family: "Helvetica, sans-serif";
+}
+.post h5 {
+  color: #666;
+  font-family: "Amatic SC";
+  text-align: right;
+}
+.post p {
+  color: #222;
+  line-height: 1.5;
+}
+.post body {
+  padding: 0;
+  margin: 0;
+  background: #fff;
+}
+.post button {
+  border: 1px solid #589b37;
+  background: #589b37;
+  border-radius: 0;
+  color: #fff;
+}
+.post button:hover {
   border: 1px solid #fff;
   background: #fff;
   color: #000;
