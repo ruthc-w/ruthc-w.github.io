@@ -1,15 +1,23 @@
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Barrio|Alegreya+SC|Alegreya+Sans|Amatic+SC);
+
 /* == PALETA == */
 $verde:#589b37; 
 $negro: #222;
 $gris: #ccc;
 $gris_o: #666;
 $gris_o2: #333;
+$morado: #aa66cc;
 /* == TAMAÑO DE LETRA == */ 
 $letra-grande: 18px; $letra-peq: 12px;
 /* == PADDING == */ $padding: 0.677rem;
 /* == MARGIN == */ $margin: 0.887rem; 
+$fechpost: "Amatic SC";
+$titpost: "Alegreya SC";
+$letrapost: "Alegreya Sans";
+$letrarara: "Barrio";
 
- 
+
 @media (max-width: 575.98px) {
 
   .description {
@@ -31,16 +39,18 @@ $letra-grande: 18px; $letra-peq: 12px;
   
 }
 
+
+
 .page-footer {
     background-color: $negro;
     color: $gris;
     padding: 60px 0 30px;
-  }
+}
   
-  .footer-copyright {
+.footer-copyright {
     color: $gris_o;
     padding: 40px 0;
-  }
+}
 
 .features .form-control,
 .features input {
@@ -52,7 +62,7 @@ $letra-grande: 18px; $letra-peq: 12px;
     padding: 1em;
     position: relative;
   
-  .btn {
+    .btn {
       background-color: $verde;
       border: 1px solid $verde;
       color: #fff;
@@ -64,16 +74,16 @@ $letra-grande: 18px; $letra-peq: 12px;
     }
   }
 
-  p {
-    padding-top: 10px;
-  }
+    p {
+      padding-top: 10px;
+    }
 
-  /* img {
-  #  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-  #  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
-    margin-bottom: 16px;
-  } */
+    /* img {
+    #  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    #  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+      margin-bottom: 16px;
+    } */
 } 
 
 .feature-title {
@@ -82,14 +92,14 @@ $letra-grande: 18px; $letra-peq: 12px;
     font-weight: 700;
     margin-bottom: 20px;
     text-transform: uppercase;
-  }
+}
 
 .header {
     background-image: url('images/piqsels.com-fondo.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
-  }
+}
 
 .overlay {
     position: absolute;
@@ -98,7 +108,7 @@ $letra-grande: 18px; $letra-peq: 12px;
     left: 0;
     top: 0;
     background: rgba(0, 0, 0, 0.6);
-  }
+}
 
 .description {
     left: 50%;
@@ -107,19 +117,20 @@ $letra-grande: 18px; $letra-peq: 12px;
     transform: translate(-50%, -55%);
     text-align: center;
 
-    h1 { color: $negro;}
+  h1 { color: $negro;
+  }
     
-    p {
+  p {
     color: #fff;
     font-size: 1.3rem;
     line-height: 1.5;
-    }
+  }
     
   body {
-    padding: 0;
+    padding: 0 0 0 60px;
     margin: 0;
-    background: #fff;
-    }
+    background: #fff;    
+  }
     
   button {
       border:1px solid $verde;
@@ -136,35 +147,73 @@ $letra-grande: 18px; $letra-peq: 12px;
   }
 }
 
+
+
+
+.other-footer {
+  background-color: $negro;
+  height: 100px;
+  width: 100%;
+  color: $gris;
+}
+
+.raro {
+  font-family: $letrarara;
+  color: $verde;
+}
+
 .banner {
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
-  
-.post {
-  position: absolute;
+.flex-container{
+  flex-flow: row;
+}
+
+.lado {
+  flex-basis: 15%;
+  padding: 20px;
+ }
+
+ .row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+
+ .fecha{
+  flex: 5%;
+  color: $gris_o2;
+  font-family: $fechpost;
+  text-align: right;
+  padding: 20px;
+  }
+
+ 
+ 
+ .post {
+  flex: 50%;
   text-align: center;
+  padding: 0 30px 30px 0;
+  overflow-y: scroll;
 
   h3 { color: $negro;
-      font-family: "Helvetica, sans-serif";
-    }
+      font-family: $titpost;
+  }
   
-  h5 { color: $gris_o;
-       font-family: "Amatic SC";
+  h4,h5 { color: $gris_o2;
+       font-family: $fechpost;
        text-align: right;
-     }  
+  }  
 
   p {
   color: $negro;
+  font-family: $letrapost;
   line-height: 1.5;
-  }
-  
-  body {
-  padding: 0;
-  margin: 0;
-  background: #fff;
+  text-align: justify;
   }
   
   button {
@@ -173,15 +222,13 @@ $letra-grande: 18px; $letra-peq: 12px;
     border-radius: 0;
     color:#fff;
 
-  &:hover {
-    border:1px solid #fff;
-    background:#fff;
-    color:#000;
+    &:hover {
+      border:1px solid #fff;
+      background:#fff;
+      color:#000;
+    }
   }
-  
  }
-}
-
   
   
   /*--- navigation bar ---*/
