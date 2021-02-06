@@ -1,5 +1,5 @@
 # This is my site
-Personal / Professional site
+## Ruth's Personal / Professional site
 
 Reuse is not authorized.
 I can tell you my tips to build a site like this:
