@@ -1,11 +1,11 @@
 ---
 layout: page
 title: "About"
-permalink: /home/about.html/
+permalink: /docs/about.html/
 ---
 
 
-![Pink Dahlia](/home/images/PIXNIO-17425-639x544.jpeg "Pink Dahlia")
+![Pink Dahlia](/docs/images/PIXNIO-17425-639x544.jpeg "Pink Dahlia")
 
 Photo by <a href="https://pixnio.com/flora-plants/flowers/dahlia-flowers/dahlia-flower-petals-pink-dahlia">Perlick Laura, USFWS</a> on <a href="https://pixnio.com/">Pixnio</a>
 
