@@ -4,7 +4,7 @@ title: "Home"
 permalink: /
 ---
 
-![African Daisy](/images/PIXNIO-17262-725x544.jpeg "African Daisy")
+![African Daisy](images/PIXNIO-17262-725x544.jpeg "African Daisy")
 
 Photo by <a href="https://pixnio.com/flora-plants/flowers/african-daisy-pictures/african-daisy-with-studio-lighting">Jon Sullivan</a> on <a href="https://pixnio.com/">Pixnio</a>
 
