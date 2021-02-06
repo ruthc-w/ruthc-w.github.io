@@ -1,4 +1,4 @@
-## Notas de Oracle
+## Ora_scripts
 
 Vamos a ver por dónde podemos comenzar...
 
