@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Esto puede servir para repasar, para fijar conceptos, para tener notas a mano, y si a alguien le sirve, pues mira, tanto mejor.
   Para mí esta descripción ya se ha ganado su awesomeness jejeje
   Keyword: Aprender, learn, Oracle, Markdown, languages, idiomas
-baseurl: "/docs" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mine
 github_username:  ruthc-w
