@@ -1,6 +1,7 @@
 # This is my site
-## Ruth's Personal / Professional site [here](https://ruthc-w.github.io/site/index.html)
 
+
+## Some testing about a Personal / Professional site [here](https://ruthc-w.github.io/site/index.html)
 Reuse is not authorized.
 I can tell you my tips to build a site like this:
 
