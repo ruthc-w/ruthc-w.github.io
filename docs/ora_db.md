@@ -5,6 +5,8 @@ permalink: ora_db.html
 ---
 
 ![Database](images/database-symbol-vector-clipart.png "Database")
+
+
 Photo via <a href="https://www.goodfreephotos.com/">Good Free Photos</a>
 
 Vamos a ver por dónde podemos comenzar...
