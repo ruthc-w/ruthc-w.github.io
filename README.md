@@ -5,8 +5,8 @@
 Reuse is not authorized.
 I can tell you my tips to build a site like this:
 
-https://websitesetup.org/bootstrap-tutorial-for-beginners/
+[Bootstrap tutorial](https://websitesetup.org/bootstrap-tutorial-for-beginners/)
 
-https://galuxui.com.es/#/sass-facilito-parte-1
+[Sass facilito](https://galuxui.com.es/#/sass-facilito-parte-1) by [helleworld_](https://twitter.com/helleworld_). She has been a great inspiration
 
 I have used Gimp, and free domain images ;) welcome
