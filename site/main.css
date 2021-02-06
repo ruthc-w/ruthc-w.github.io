@@ -1,0 +1,233 @@
+@charset "UTF-8";
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Barrio|Alegreya+SC|Alegreya+Sans|Amatic+SC);
+/* == PALETA == */
+/* == TAMAÑO DE LETRA == */
+/* == PADDING == */
+/* == MARGIN == */
+@media (max-width: 575.98px) {
+  .description {
+    left: 0;
+    padding: 0 15px;
+    position: absolute;
+    top: 10%;
+    transform: none;
+    text-align: center;
+  }
+  .description h1 {
+    font-size: 2em;
+  }
+  .description p {
+    font-size: 1.2rem;
+  }
+
+  .features {
+    margin: 0;
+  }
+}
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 60px 0 30px;
+}
+
+.footer-copyright {
+  color: #666;
+  padding: 40px 0;
+}
+
+.features .form-control,
+.features input {
+  border-radius: 0;
+}
+
+.features {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+  /* img {
+  #  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  #  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+  } */
+}
+.features .btn {
+  background-color: #589b37;
+  border: 1px solid #589b37;
+  color: #fff;
+  margin-top: 20px;
+}
+.features .btn:hover {
+  background-color: #333;
+  border: 1px solid #333;
+}
+.features p {
+  padding-top: 10px;
+}
+
+.feature-title {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.header {
+  background-image: url("images/piqsels.com-fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+.description h1 {
+  color: #222;
+}
+.description p {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.description body {
+  padding: 0 0 0 60px;
+  margin: 0;
+  background: #fff;
+}
+.description button {
+  border: 1px solid #589b37;
+  background: #589b37;
+  border-radius: 0;
+  color: #fff;
+}
+.description button:hover {
+  border: 1px solid #fff;
+  background: #fff;
+  color: #000;
+}
+
+.other-footer {
+  background-color: #222;
+  height: 100px;
+  width: 100%;
+  color: #ccc;
+}
+
+.raro {
+  font-family: "Barrio";
+  color: #589b37;
+}
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.fecha {
+  color: #333;
+  font-family: "Amatic SC";
+  text-align: right;
+  padding: 20px;
+}
+
+.post {
+  text-align: center;
+  padding: 0 30px 30px 0;
+  overflow-y: scroll;
+}
+.post h3 {
+  color: #222;
+  font-family: "Alegreya SC";
+}
+.post h4, .post h5 {
+  color: #333;
+  font-family: "Amatic SC";
+  text-align: right;
+}
+.post p {
+  color: #222;
+  font-family: "Alegreya Sans";
+  line-height: 1.5;
+  text-align: justify;
+}
+.post button {
+  border: 1px solid #589b37;
+  background: #589b37;
+  border-radius: 0;
+  color: #fff;
+}
+.post button:hover {
+  border: 1px solid #fff;
+  background: #fff;
+  color: #000;
+}
+
+/* Column container */
+.row {
+  display: -ms-flexbox;
+  /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap;
+  /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 25%;
+  /* IE10 */
+  flex: 25%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  -ms-flex: 70%;
+  /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/*--- navigation bar ---*/
+.navbar {
+  background: #222;
+}
+
+.nav-link,
+.navbar-brand {
+  color: #ccc;
+  cursor: pointer;
+}
+
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: #666;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+/*# sourceMappingURL=main.css.map */
