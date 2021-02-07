@@ -32,7 +32,7 @@ github_username:  ruthc-w
 
 
 # Build settings
-theme: jekyll-theme-tactile
+theme: minima
 favicon: images/logoP.jpg
 plugins:
   - jekyll-feed
