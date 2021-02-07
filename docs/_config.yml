@@ -34,7 +34,7 @@ show_excerpts: false # set to true to show excerpts on the homepage
 
 # Build settings
 theme: minima
-favicon: favicon.png
+favicon: favicon.ico
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
