@@ -33,7 +33,7 @@ github_username:  ruthc-w
 
 # Build settings
 theme: minima
-favicon: images/logoP.jpg
+favicon: favicon.jpg
 plugins:
   - jekyll-feed
 
