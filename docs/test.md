@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Blog"
-permalink: blog.html
+title: "Test"
+permalink: test.html
 ---
 
 ![pink yellow calla lilies](images/pink-and-yellow-calla-lilies_n.jpg "Pink yellow calla lilies")
