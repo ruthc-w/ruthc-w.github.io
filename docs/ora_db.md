@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Ora_DB"
+title: "OraDB"
 permalink: ora_db.html
 ---
 
