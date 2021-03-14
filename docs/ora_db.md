@@ -15,6 +15,8 @@ Vamos a ver por dónde podemos comenzar...
 
 [Tuning](https://github.com/ruthc-w/ora/blob/main/tuning.md "Tuning")
 
+[Errores](https://github.com/ruthc-w/ora/blob/main/errors.md "Errores")
+
 RMAN
 
 ASM
