@@ -22,9 +22,9 @@ I can tell you my tips to build a site like this:
 
 [Bootstrap tutorial](https://websitesetup.org/bootstrap-tutorial-for-beginners/)
 
-[Sass facilito](https://galuxui.com.es/#/sass-facilito-parte-1) by [helleworld_](https://twitter.com/helleworld_). She has been a great inspiration
+[Sass facilito](https://galuxui.com.es/#/sass-facilito-parte-1) by [helleworld_](https://twitter.com/helleworld_). She has been a great inspiration (EDIT: [helleworld_](https://linktr.ee/DesireMCarmona))
 
 I have used Gimp, and free domain images 😄 welcome
 
-Tutoriales estupendos, sobre todo el de [helleworld_](https://twitter.com/helleworld_). Sin conocernos, me animó a hacerlo, una gran inspiración. Las imágenes del site y de aquí, modificadas por Gimp y de free domain.
+Tutoriales estupendos, sobre todo el de (EDIT: [helleworld_](https://linktr.ee/DesireMCarmona)). Sin conocernos, me animó a hacerlo, una gran inspiración. Las imágenes del site y de aquí, modificadas por Gimp y de free domain.
 
